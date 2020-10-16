@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Upload new File</title>
+<h1>Upload new File</h1>
+<form method=post enctype=multipart/form-data>
+    <label for="account">Account:</label><br>
+    <select id="account" name="account">
+        <option value="nwca">Nationwide Current Account</option>
+        <option value="nwsa">Nationwide Savings Account</option>
+        <option value="nwcc">Nationwide Credit Card</option>
+      </select>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+</form>
